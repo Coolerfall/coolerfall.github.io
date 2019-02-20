@@ -407,9 +407,9 @@
                   <i class="fa fa-comment-o"></i>
                 </span>
                 <a href="/2015/05/14/git-problems/#comments" itemprop="discussionUrl">
-                
-                  <span class="post-comments-count disqus-comment-count"
-                        data-disqus-identifier="2015/05/14/git-problems/" itemprop="commentCount"></span>
+                  <span class="post-meta-item-text">评论数：</span>
+                  <span class="post-comments-count colina-comment-count"
+                          data-colina-identifier="2015/05/14/git-problems/" itemprop="commentCount"></span>
                 </a>
               </span>
             
@@ -565,10 +565,9 @@ fatal: The remote end hung up unexpectedly
 
   
     <div class="comments" id="comments">
-      <div id="disqus_thread">
+      <div id="colina-comments">
         <noscript>
-          Please enable JavaScript to view the
-          <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a>
+          Please enable JavaScript to view comments powered by Colina.
         </noscript>
       </div>
     </div>
@@ -625,7 +624,7 @@ fatal: The remote end hung up unexpectedly
                 
                   <a href="/archives/">
                 
-                    <span class="site-state-item-count">26</span>
+                    <span class="site-state-item-count">27</span>
                     <span class="site-state-item-name">日志</span>
                   </a>
                 </div>
@@ -705,7 +704,11 @@ fatal: The remote end hung up unexpectedly
                     
                       
                     
-                    <span class="site-state-item-count">21</span>
+                      
+                    
+                      
+                    
+                    <span class="site-state-item-count">23</span>
                     <span class="site-state-item-name">标签</span>
                   </a>
                 </div>
@@ -947,38 +950,60 @@ fatal: The remote end hung up unexpectedly
 
   
 
+
+
   
-    <script id="dsq-count-scr" src="https://coolerfall.disqus.com/count.js" async></script>
+
+
+
+
+
+
+
+
+
+
+  <link rel="stylesheet" href="https://colina.coolerfall.com/embed/colina.min.css">
+
+  
+    <script type="text/javascript">
+      var colinaConfig = {
+        siteId: "bhmmm5gs9ql0esljmt5g",
+        apiUrl: "https://colina.coolerfall.com",
+        lang: "" || navigator.language || 
+          navigator.systemLanguage || navigator.userLanguage
+      };
+      (function() {
+          var d = document, s = d.createElement("script");
+          s.src = "https://colina.coolerfall.com/embed/counter.min.js";
+          (d.head || d.body).appendChild(s);
+        })();
+    </script>
   
 
   
     <script type="text/javascript">
-      var disqus_config = function () {
-        this.page.url = 'http://coolerfall.com/2015/05/14/git-problems/';
-        this.page.identifier = '2015/05/14/git-problems/';
-        this.page.title = '记录git使用中遇到的一些小问题';
-        };
-      function loadComments () {
-        var d = document, s = d.createElement('script');
-        s.src = 'https://coolerfall.disqus.com/embed.js';
-        s.setAttribute('data-timestamp', '' + +new Date());
-        (d.head || d.body).appendChild(s);
+      var colinaConfig = {
+        identifier: "2015/05/14/git-problems/",
+        siteId: "bhmmm5gs9ql0esljmt5g",
+        apiUrl: "https://colina.coolerfall.com",
+        title: "记录git使用中遇到的一些小问题",
+        lang: "" || navigator.language || 
+          navigator.systemLanguage || navigator.userLanguage
+      };
+      function loadComments() {
+        (function() {
+          var d = document, s = d.createElement("script");
+          s.src = "https://colina.coolerfall.com/embed/colina.min.js";
+          (d.head || d.body).appendChild(s);
+        })();
       }
+
       
         loadComments();
       
     </script>
   
-
-
-
-
-
-
-
-
-
-
 
 
   
